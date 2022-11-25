@@ -14,7 +14,7 @@ from update_check import isUpToDate, update
 if isUpToDate(__file__,  "https://raw.githubusercontent.com/spider863644/WhatsApp-Crash/main/crash.py") == False:
     print(Fore.YELLOW+ "This version is outdated, will update the tool in a minute")
     t.sleep(3)
-    update("wordlist.py",  "https://raw.githubusercontent.com/spider863644/Wordlist-Generator/main/crash.py")
+    update("wordlist.py",  "https://raw.githubusercontent.com/spider863644/Wordlist-Generator/main/wordlist.py")
     print(Fore.GREEN + "Updated\nRun tool again")
     exit()
 def loop():
